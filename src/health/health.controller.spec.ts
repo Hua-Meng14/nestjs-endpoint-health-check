@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { HealthController } from './health.controller';
-
+import { mockDeep, MockProxy } from 'jest-mock-extended';
 describe('HealthController', () => {
   let controller: HealthController;
 
